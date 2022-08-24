@@ -36,7 +36,11 @@ build:
 ```
 
 ## How to refer to the version.sh from my repository?
-TBD.
+To run the script use this for example: 
+
+```shell
+curl -s https://raw.githubusercontent.com/acquirecloud/appversion/inception/version.sh | bash -s -- --help
+```
 
 ## How the version is calculated?
 The executable versions are based on the git-tags. The following conventions are used:
