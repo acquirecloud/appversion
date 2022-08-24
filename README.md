@@ -1,0 +1,2 @@
+# appversion
+Executables version calculator
